@@ -13,7 +13,7 @@ ini_set('auto_detect_line_endings',true);
 try {
     // Create calculator
     $commissionsCalculator = new TransactionProcessor(
-        new LocalFileReader($argv[1]),
+        new LocalFileReader($argv[1] ?? ''),
         new TransactionParser()
     );
 
