@@ -1,0 +1,19 @@
+{
+    "require": {
+        "phpunit/phpunit": "^9.6",
+        "mockery/mockery": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Base\\": "Base/",
+            "Builders\\": "Builders/",
+            "Calculators\\": "Calculators/",
+            "Entities\\": "Entities/",
+            "Parsers\\": "Parsers/",
+            "Processors\\": "Processors/",
+            "Readers\\": "Readers/",
+            "Services\\": "Services/",
+            "Tests\\": "Tests/"
+        }
+    }
+}
