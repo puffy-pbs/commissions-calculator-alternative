@@ -8,4 +8,5 @@ Calculate commissions of already made transactions
 2. Filename is read from the console as a process argument
 3. Each line of the input file should be a VALID JSON string
 4. App can be started simply by typing "php app.php input.txt" (replace "input.txt" with your desired filename) and then pressing ENTER
+5. Initiate tests with this command - "./vendor/bin/phpunit Tests"
 
